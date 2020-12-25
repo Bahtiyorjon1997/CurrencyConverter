@@ -1,0 +1,74 @@
+.container{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  size: 100px;
+  margin-left: 1rem;
+  margin-top: .1rem;
+}
+
+.row-from{
+  vertical-align: middle;
+  display: table-cell;
+  height: 40px;
+  margin: 0px;
+}
+
+.row-to{
+  vertical-align: middle;
+  display: table-cell;
+  height: 40px;
+  
+  
+}
+label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  padding-bottom: 0%;
+}
+
+.equal{
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14px;
+  height: 10;
+  font-size: 30px;
+  margin-top: 8px;
+}
+input, select{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(123, 32, 197, 0.19);;
+  align-self: center;
+  border-color: blueviolet;
+  width: 100px;
+  border-color: white;
+  border: none;
+  font-size: large;
+  margin-top: 8px;
+  
+}
+select{
+  width: 80px;
+}
+
+button {
+  margin-top: 0px;
+  margin-left: 25px;
+  height: 39px;
+  width: 39px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(123, 32, 197, 0.19);
+}
+.btn {
+  margin-top: 0px;
+  align-self: top;
+}
+img{
+  text-align: center;
+}
+.shit-btn{
+  display: inline-block;
+  margin-top: 0;
+}
